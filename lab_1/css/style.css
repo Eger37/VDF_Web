@@ -63,7 +63,7 @@ body {
 /* close commented backslash hack */
 
 .header {
-    background: indigo;
+    background: indigo !important;
     height: 200px;
     margin-bottom: 10px;
 }
