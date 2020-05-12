@@ -1,0 +1,152 @@
+html {
+    width: 99%;
+    max-width: 99%;
+}
+
+body {
+    width: 99%;
+    max-width: 99%;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+p,
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#link_1 {
+    color: green;
+}
+#link_1:visited {
+    color: greenyellow;
+}
+
+#link_1:active {
+    color: yellow;
+}
+
+#main {
+    position: relative;
+    top: 30%;
+    color: lawngreen;
+    /* border: 1px solid red; */
+}
+body {
+    color: white;
+    font-size: 30px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+/* close commented backslash hack */
+
+.header {
+    background: indigo;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.content {
+    width: 80%;
+    float: left;
+}
+.inner-content {
+    background: lawngreen;
+    min-height: 500px;
+}
+.sidebar {
+    width: 20%;
+    float: left;
+    /* min-height: 500px; */
+    padding-left: 1%;
+}
+.inner-sidebar {
+    background: indigo;
+    min-height: 500px;
+}
+.footer {
+    background: indigo;
+    height: 200px;
+    margin-top: 10px;
+}
+.images {
+    border: 1px solid gray;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    height: 100%;
+}
+.image-wrap {
+    /* width: 500px;
+    height: 300px; */
+    border: 1px solid red;
+    /* width: 40%;
+    height: 40%; */
+    padding: 1%;
+}
+
+.image-center {
+    display: block;
+    margin: auto;
+}
+
+.image-align {
+    text-align: center;
+}
+.image-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lol_1 {
+    color: lightcyan;
+    text-align: center;
+}
+
+#sup_1 {
+    font-size: 16px;
+}
+[href] {
+    color: hotpink;
+}
+h2 {
+    text-align: center;
+}
+li {
+    text-align: left;
+}
+#poem_child {
+    align-items: center;
+}
+
+/***/
+/*div*/
+/*.color_text_1 [special-attr]*/
+/*#id1*/
+/*attrStyle*/
+/*!important*/
