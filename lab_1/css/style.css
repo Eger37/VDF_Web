@@ -1,12 +1,7 @@
 html {
-    width: 99%;
-    max-width: 99%;
+    font-size: 10px;
 }
 
-body {
-    width: 99%;
-    max-width: 99%;
-}
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +9,7 @@ body {
 }
 p,
 h1 {
-    font-size: 24px;
+    font-size: 2.4rem;
     text-align: center;
 }
 a {
@@ -39,7 +34,7 @@ a {
 }
 body {
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .clearfix:after {
@@ -80,7 +75,7 @@ body {
     width: 20%;
     float: left;
     /* min-height: 500px; */
-    padding-left: 1%;
+    padding-left: 10px;
 }
 .inner-sidebar {
     background: indigo;
@@ -96,7 +91,6 @@ body {
     position: relative;
     display: flex;
     justify-content: space-around;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     height: 100%;
 }
@@ -113,7 +107,7 @@ body {
     display: block;
     margin: auto;
 }
-
+/* 
 .image-align {
     text-align: center;
 }
@@ -121,7 +115,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 #lol_1 {
     color: lightcyan;
@@ -129,7 +123,7 @@ body {
 }
 
 #sup_1 {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 [href] {
     color: hotpink;
@@ -142,6 +136,23 @@ li {
 }
 #poem_child {
     align-items: center;
+}
+
+
+@media(max-width: 1366px){
+    html {
+        font-size: 8px;
+    }
+    .images{
+        justify-content: space-evenly;
+    }
+}
+
+
+@media(max-width: 480px){
+    html {
+        font-size: 5px;
+    }
 }
 
 /***/
