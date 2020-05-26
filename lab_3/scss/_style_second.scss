@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .lol {
+        margin: 15px;
+        font-size: 20px;
+    }
+    #lol1 {
+        flex-basis: 80%;
+    }
+}

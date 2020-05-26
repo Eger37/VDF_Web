@@ -1,0 +1,28 @@
+@import "style_second";
+$primary-fontcolor: red;
+.lol {
+    .gol {
+        color: $primary-fontcolor;
+    }
+}
+@mixin box($a, $font-color) {
+    font-size: $a;
+    color: $font-color;
+}
+
+.boxes-conteiner {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .first {
+        @include box(50px, red);
+    }
+    .second {
+        @include box(80px, blue);
+    }
+    .third {
+        @include box(50px, yellow);
+    }
+}

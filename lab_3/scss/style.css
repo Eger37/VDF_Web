@@ -1,0 +1,56 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main .lol {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.main #lol1 {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+}
+
+.lol .gol {
+  color: red;
+}
+
+.boxes-conteiner {
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.boxes-conteiner .first {
+  font-size: 50px;
+  color: red;
+}
+
+.boxes-conteiner .second {
+  font-size: 80px;
+  color: blue;
+}
+
+.boxes-conteiner .third {
+  font-size: 50px;
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */
