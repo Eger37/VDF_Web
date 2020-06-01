@@ -1,56 +1,70 @@
+body {
+   min-height: 1500px;
+ }
 .house {
    width: 600px;
    height: 600px;
    border: 5px solid #f00;
-   position: absolute;
+   position: sticky;
+   top: 0;
+}
+.in-house {
+   position: sticky;
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-bottom: 350px;
+   margin-top: -50px;
+}
+.roof {
+   width: 300px;
+   height: 300px;
+   position: sticky;
+   margin-top: 0px;
 }
 .wall {
    width: 300px;
    height: 300px;
    background-color: #f00;
-   position: absolute;
-   right: 150px;
+   position: sticky;
+   margin: 0px;
+}
 
-   bottom: 50px;
-}
-.roof {
-   width: 300px;
-   height: 300px;
-   position: absolute;
-   right: 150px;
-   bottom: 350px;
-}
 .roof .item {
    border: 150px solid transparent;
    border-bottom: 150px solid green;
-   /* position: absolute; */
 }
 .round-window {
    width: 50px;
    height: 50px;
-   position: absolute;
-   right: 275px;
-   bottom: 375px;
+   position: sticky;
    border-radius: 100%;
    background-color: yellow;
    border: 5px solid brown;
+   margin-top: -90px;
+   margin-left: 120px;
+   margin-right: 120px;
 }
-
 .square-window {
    width: 60px;
    height: 70px;
-   position: absolute;
-   right: 350px;
-   bottom: 175px;
+   position: sticky;
+   margin-left: 50px;
+   padding-top: 50px;
+}
+
+.square-window .item {
+   width: 60px;
+   height: 70px;
+   position: sticky;
    background-color: yellow;
    border: 5px solid brown;
 }
 .door {
    width: 80px;
    height: 180px;
-   position: absolute;
-   right: 250px;
-   bottom: 75px;
+   position: sticky;
    background-color: brown;
    border: 5px solid burlywood;
+   margin-left: 150px;
+   margin-top: -50px;
 }
