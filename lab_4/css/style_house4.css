@@ -1,0 +1,68 @@
+.house {
+   width: 600px;
+   height: 600px;
+   border: 5px solid #f00;
+   position: static;
+}
+.in-house {
+   position: static;
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-bottom: 350px;
+
+   margin-top: -50px;
+}
+.roof {
+   width: 300px;
+   height: 300px;
+   position: static;
+   margin-top: 0px;
+}
+.wall {
+   width: 300px;
+   height: 300px;
+   background-color: #f00;
+   position: static;
+   margin: 0px;
+   /* padding-top: 50px; */
+}
+
+.roof .item {
+   border: 150px solid transparent;
+   border-bottom: 150px solid green;
+}
+.round-window {
+   width: 50px;
+   height: 50px;
+   position: static;
+   border-radius: 100%;
+   background-color: yellow;
+   border: 5px solid brown;
+   margin-top: -90px;
+   margin-left: 120px;
+   margin-right: 120px;
+}
+.square-window {
+   width: 60px;
+   height: 70px;
+   position: static;
+   margin-left: 50px;
+   padding-top: 50px;
+}
+
+.square-window .item {
+   width: 60px;
+   height: 70px;
+   position: static;
+   background-color: yellow;
+   border: 5px solid brown;
+}
+.door {
+   width: 80px;
+   height: 180px;
+   position: static;
+   background-color: brown;
+   border: 5px solid burlywood;
+   margin-left: 150px;
+   margin-top: -50px;
+}
